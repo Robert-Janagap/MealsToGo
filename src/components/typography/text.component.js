@@ -19,7 +19,7 @@ const caption = (theme) =>
   `font-size: ${theme.fontSizes.caption}; font-weight: ${theme.fontWeights.bold}`;
 
 const label = (theme) => `
-    font-family: ${theme.fonts.header}
+    font-family: ${theme.fonts.heading}
     font-size: ${theme.fontSizes.body}
     font-weight: ${theme.fontWeights.medium}
 `;
