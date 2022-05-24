@@ -44,6 +44,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
       <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Title>{name}</Title>
+        <Address>{address}</Address>
       </Info>
     </RestaurantCard>
   );
